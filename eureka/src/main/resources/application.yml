@@ -6,6 +6,13 @@ spring:
 server:
   port: 6080
 
+security:
+  basic:
+    enabled: true #开启认证
+  user:
+    name: admin
+    password: pwd666
+
 eureka:
   client:
     register-with-eureka: false
